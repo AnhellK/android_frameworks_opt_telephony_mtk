@@ -858,7 +858,6 @@ public abstract class InboundSmsHandler extends StateMachine {
                         continue;
                     }
 
-
                     pdus[index] = HexDump.hexStringToByteArray(cursor.getString(
                             PDU_SEQUENCE_PORT_PROJECTION_INDEX_MAPPING.get(PDU_COLUMN)));
 
